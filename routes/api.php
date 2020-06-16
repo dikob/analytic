@@ -24,7 +24,5 @@ Route::post('property', 'PropertyController@addProperty');
 Route::post('analytic', 'PropertyController@analytic');
 // Update an analytic
 Route::patch('analytic', 'PropertyController@analytic');
-// Update an analytic
-Route::patch('analytic', 'PropertyController@analytic');
 // Get all analytics for an inputted property
 Route::get('analytics', 'PropertyController@getAnalytics');
